@@ -47,6 +47,7 @@ def main():
     # Set up the application
     application = Application.builder().token(BOT_TOKEN).build()
 
+    # Get the CHANNEL_ID of channel. Uncomment this code 
     # application.add_handler(MessageHandler(filters.ALL, log_message))
 
     # Add a handler to monitor Channel A
